@@ -1,4 +1,4 @@
-# **Html CV Project with CSS** #
+# **Html CV Project with CSS(Html week 1 project)** #
 
 To open the project file for module 2 html project, follow this folder path
 
@@ -12,7 +12,7 @@ To open the project file for module 2 html project, follow this folder path
 4. Inside, you will find the `index.html` file.
 
 
-# **JavaScript Project File** #
+# **JavaScript Project File(JS week 1 project)** #
 
 To obtaing the code to the main JavaScript file 
 for this assignation, follow this folder path:
