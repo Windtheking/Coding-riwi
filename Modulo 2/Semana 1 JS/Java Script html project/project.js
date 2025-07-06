@@ -13,3 +13,8 @@
             document.getElementById("Main_square").innerHTML = `<p>Usser ${name} You are ${age} years old hence you are not an adult</p>`;
         }
     }
+
+
+setTimeout(() => {
+  location.reload();
+}, 8000);
