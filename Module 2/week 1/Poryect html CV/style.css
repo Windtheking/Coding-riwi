@@ -59,6 +59,8 @@ header{
     }
 }
 
+
+/* Body section */
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr  ;
@@ -315,7 +317,7 @@ main{
 
 
 
-
+/*Footer section*/
 footer{
     display: flex;
     justify-content: space-around;
