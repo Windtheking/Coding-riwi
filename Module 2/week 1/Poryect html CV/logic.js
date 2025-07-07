@@ -1,5 +1,5 @@
 
-
+//not a valid js code, just exploring functions
 
 /* alert("Page is fully loaded");*/
 
