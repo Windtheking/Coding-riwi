@@ -28,3 +28,17 @@ for this assignation, follow this folder path:
 5. Open the "Index.html" file for a better experience
 
 You can open this file with a code editor like Visual Studio Code to view or edit the JavaScript code.
+
+
+# **Html CV Project with CSS(Html week 2 project)** #
+
+To open the project file for module 2  week 2, follow this folder path
+
+`Coding\Modulo 2\week 2\Poryect html CV\index.html`
+
+## **Instructions** ##
+-------------
+1. Open the `Module 2` folder.
+2. Go into the `week 2` folder.
+3. Open the `Poryect html CV` folder.
+4. Inside, you will find the `index.html` file.
