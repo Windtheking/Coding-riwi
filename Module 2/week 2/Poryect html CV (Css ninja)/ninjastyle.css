@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Libertinus+Mono&family=Oswald:wght@200..700&display=swap');
 
+
+/*Needed animations stored*/
 @keyframes animated_gradient {
-    0%{background:#385170; ; }
+    0%{background:#385170;}
     50% {background: #0f385b;}
     100% {background: #385170; }
 }
@@ -13,24 +15,24 @@
     100%{transform:rotate(0deg);}
 }
 
+/*Body normalization*/
 *{
     box-sizing: border-box;
-    margin: 0vh;
-    padding: 0vh;
+    margin: 0;
+    padding: 0;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-
+/*Header*/
 header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Cascadia Code", sans-serif;
-    font-optical-sizing: auto;
-    height: 15vh;
+    font-optical-sizing: auto;  
 	background: #142d4c; 
     grid-row-start: 1;
     grid-row-end: 2;
@@ -43,7 +45,7 @@ header{
         padding: 1vh;
         margin: 1vh;
     }
-
+    /*nav bar*/
     .nav_bar{
         display: flex;
         width: 100%;
@@ -100,9 +102,11 @@ main{
     }
 }
 
+/*Main and only personal image*/
 .pfp:hover{
     animation:rotation 1.5s 1 ease;
 }
+
 .section1{
     grid-column-start: 1;
     grid-column-end: 4;
@@ -120,6 +124,7 @@ main{
 
 
 
+
     .content_grid{
         display: flex;
         flex-wrap: wrap;
@@ -130,8 +135,6 @@ main{
         padding: 1vh;
         color: white;   
         
-    
-           
             #insider_main{
                 display: flex;
                 flex-direction: column;
@@ -162,7 +165,6 @@ main{
     
     }
     
-    
     #insider_main3{
         display: flex;
         flex-direction: column;
@@ -180,10 +182,6 @@ main{
         margin: 1vh;
         background: #385170; 
         color: white;   
-        
-        
-        
-        
         
         a{
             text-decoration: none;
@@ -225,7 +223,7 @@ main{
         animation: animated_gradient 5s infinite ease;
 }
 
-
+/*Projects chart*/
 .section2{
     display: flex;
     justify-content: space-around;
@@ -282,8 +280,6 @@ main{
         td, tr{
             background-color: rgb;
         }
-
-       
     }
     
     .content_table{
@@ -300,7 +296,7 @@ main{
         animation: animated_gradient 6s infinite ease;
 }
 
-
+/*Contact me zone*/
 .section3{
     display: flex;
     flex-direction: column;
@@ -360,12 +356,6 @@ main{
 .section3:hover{
         animation: animated_gradient 5s infinite ease;
 }
-
-
-
-
-
-
 
 /*Footer section*/
 footer{
